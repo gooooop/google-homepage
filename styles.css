@@ -1,0 +1,187 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  -moz-osx-font-smoothing:grayscale;
+  color:rgba(0,0,0,0.87);
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  margin: 0;
+  -moz-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+html,
+body {
+  min-width: 400px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+ol,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+body,
+input,
+button {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #609;
+}
+
+textarea {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2962ff;
+}
+
+img {
+  border: none;
+}
+
+/* blocks */
+
+div,
+footer,
+form,
+header,
+html,
+main,
+nav,
+section {
+  display: block;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-block-start: .67em;
+  margin-block-end: .67em;
+}
+
+h2,
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-block-start: .83em;
+  margin-block-end: .83em;
+}
+
+h3,
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+h4,
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 1.00em;
+  font-weight: bold;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+}
+
+h5,
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+}
+
+h6,
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 0.67em;
+  font-weight: bold;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+}
+
+link {
+  display: none;
+}
+
+frame {
+  border-radius: 0 !important;
+}
+
+iframe {
+  border: 2px inset;
+}
+
+/* hidden elements */
+head, meta, script, style, title {
+  display: none;
+}
