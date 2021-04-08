@@ -1,0 +1,421 @@
+/*base*/
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  -moz-osx-font-smoothing:grayscale;
+  color:rgba(0,0,0,0.87);
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  margin: 0;
+  -moz-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+html,
+body {
+  min-width: 400px;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+ol,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+body,
+input,
+button {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #609;
+}
+
+textarea {
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2962ff;
+}
+
+img {
+  border: none;
+}
+
+
+
+/* blocks */
+div,
+footer,
+form,
+header,
+html,
+main,
+nav,
+section {
+  display: block;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-block-start: .67em;
+  margin-block-end: .67em;
+}
+
+h2,
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-block-start: .83em;
+  margin-block-end: .83em;
+}
+
+h3,
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+h4,
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 1.00em;
+  font-weight: bold;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+}
+
+h5,
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+}
+
+h6,
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+:is(article, aside, nav, section)
+h1 {
+  display: block;
+  font-size: 0.67em;
+  font-weight: bold;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+}
+
+link {
+  display: none;
+}
+
+frame {
+  border-radius: 0 !important;
+}
+
+iframe {
+  border: 2px inset;
+}
+
+
+
+/* hidden elements */
+head, meta, script, style, title {
+  display: none;
+}
+
+
+
+/* main steez */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+
+/*navigation*/
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  flex-shrink: 0;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.big_nav_container {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+a.left_nav {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+  color: #222;
+}
+      a.left_nav:first-of-type {
+        margin-left: 15px;
+      }
+
+.big_nav {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.big_nav2 {
+  color: black;
+  min-width: 320px;
+  height: 48px;
+  position: relative;
+  transition: box-shadow 250ms;
+}
+
+.right_nav {
+  box-sizing: border-box;
+  height: 48px;
+  line-height: normal;
+  padding: 0 40px;
+  padding-left: 30px;
+  justify-content: flex-end;
+  vertical-align: middle;
+  white-space: nowrap;
+  align-items: center;
+  display: flex;
+}
+
+.right_link_container {
+  font-family: arial, sans-serif;
+  line-height: normal;
+  padding-right: 15px;
+}
+
+.right_link_wrapper {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.right_link {
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+a.right_link {
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+}
+
+.right_link_container2 {
+  float: right;
+  position: relative;
+}
+
+.google_grid1 {
+  display: inline;
+}
+
+.google_grid2 {
+  padding: 4px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.google_grid3 {
+  position: relative;
+}
+
+.google_grid_link {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sign_in {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 8px;
+  background: #1a73e8;
+  border: 1px solid transparent;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: .25px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-right: 8px;
+  min-width: 96px;
+  padding: 9px 23px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  display: inline-block;
+}
+
+/*logo*/
+.logo_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 150px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+  flex-shrink: 0;
+  box-sizing: border-box;
+  }
+
+.logo {
+  max-height: 230px;
+  position: relative;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 100%;
+  margin: auto;
+}
+
+
+
+/*search*/
+.search_container {
+  padding: 20px;
+  max-height: 160px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.search_button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.search_field {
+  width: auto;
+  max-width: auto;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.search_field_text {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search_field_text2 {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.search_field_text3 {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  height: 34px;
+}
+.search_text {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+}
